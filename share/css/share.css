@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+
+div#wrapper{
+	margin: 0 auto;
+	text-align: left;
+	width: 100%;
+	line-height: 1.8;
+}
+
+div#wrapBg{
+	/*border-top: 1px solid #ccc;*/
+	border-top: 0px solid #ccc;
+}
+
+
+
+div#PageBgColor{
+	background: #0cd0c2;
+	border-top: 1px solid #dedede;
+}
+
+
+
+
+div#header{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	background-color:#fff;
+}
+
+div#header h1{
+	font-weight: bold;
+	float: left;
+	width: 320px;
+	padding: 30px 0px 0 105px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	/*text-shadow:0px -1px 1px #dedede;*/
+	background: url(../img/logo_O.png) no-repeat left;
+}
+
+div#header ul#gNavi{
+	float: right;
+	margin-bottom: 0;
+	padding-bottom: 0;		
+}
+
+ul#gNavi li{
+	display: block;
+	float: right;
+	border-left: 1px solid #dedede;
+	background-color: #0cd0c2;
+}
+
+ul#gNavi li.firstItem{
+	border-right: 1px solid #dedede;
+}
+
+ul#gNavi li.lastItem{
+	margin-left: 0;
+}
+
+ul#gNavi li.active{
+	background: url(../img/bg_gnavi.gif) repeat-x bottom left;
+	background-color: #0cd0c2;
+}
+
+ul#gNavi li img{
+	vertical-align: bottom;
+}
+
+div#header ul#gNavi li a{
+	font-size: 13px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	padding: 30px 13px;
+}
+
+div#header ul#gNavi li a:hover{
+	background: url(../img/bg_gnavi.gif) repeat-x bottom left;
+	background-color: #1f69a2;
+}
+
+
+div#PageTitleBox{
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+	min-height:80px;
+	height: auto !important;
+	height: 80px;
+	position: relative;
+	color : #fff;
+	background-color:#0cd0c2;
+}
+
+
+/* ========FOOT CONTENTS============ */
+
+div#FootbgColor{
+	margin-top: 20px;
+	background: #1f69a2;
+	padding-bottom: 10px;
+}
+
+div#FootImgBox{
+	margin: 0 auto;
+	text-align: right;
+	width: 960px;
+	min-height:80px;
+	height: auto !important;
+	height: 80px;
+	position: relative;
+	color : #0cd0c2;
+}
+/* ========FOOTMENU CUSTOMIZE======== */
+#footMenu ul {
+    margin:5px 0;
+    padding:10px 0;
+    text-align:right;
+}
+
+#footMenu li {
+    display:inline;
+    margin:0 10px 0 10px;
+    list-style:none;
+}
+
+#footMenu li a {
+    color:#0cd0c2;
+    text-decoration:none;
+}
+
+#footMenu li a:hover {
+    color:#ffbc40;
+    text-decoration:underline;
+}
+
+/* ========FOOTER CUSTOMIZE======== */
+.copyright {
+    font-style:normal;
+    font-size:12px;
+    color:#ffbc40;
+    line-height:1.2;
+    text-align:right;
+}
+/* ========PAGRTOP CUSTOMIZE========= */
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+ 
+.pagetop a:hover {
+    display: block;
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:20px 10px;
+}

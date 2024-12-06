@@ -1,0 +1,88 @@
+/*■個人情報の取扱いについて*/
+/*両括弧付　連番数値*/
+.list{
+ counter-reset:item;
+ list-style:none;
+}
+.list li:before{
+ content:"(" counter(item,decimal) ")";
+ counter-increment:item;
+ margin-right:0.5em;
+}
+.list li{
+ padding-left:2em;
+ text-indent:-2em;
+}
+
+/*■開示対象個人情報に関する事項の周知*/
+/*小文字アルファベット連番 括弧付*/
+.list2{
+ counter-reset:item2;
+ list-style:none;
+}
+.list2 li:before{
+ content: counter(item2,lower-alpha) ")";
+ counter-increment:item2;
+ margin-right:0.5em;
+}
+.list2 li{
+ padding-left:2em;
+ text-indent:-2em;
+}
+
+
+/*片側括弧　連番数値*/
+.list3{
+ counter-reset:item3;
+ list-style:none;
+}
+.list3 li:before{
+ content: counter(item3,decimal) ")";
+ counter-increment:item3;
+ margin-right:0.5em;
+}
+.list3 li{
+ padding-left:1.5em;
+ text-indent:-1.5em;
+}
+
+/*まる付数値 種類指定なし*/
+.list4{
+ counter-reset:item4;
+ list-style:none;
+}
+.list4 li:before{
+ content: counter(item4,none) ;
+ counter-increment:item4;
+ margin-right:0.5em;
+}
+.list4 li{
+ padding-left:1.5em;
+ text-indent:-1.5em;
+}
+
+/*テキスト文字「以上」を右寄せ*/
+.text{
+ text-align: right;
+}
+
+/* 2016/11/28 追加 */
+/* -- 個人情報 Pマーク  --*/
+/* Pマーク フォントサイズ1 */
+p.Pmark-f{
+	font-size:75%
+
+}
+
+/* Pマーク 外枠 */
+.p-border {
+	margin: 5px;
+	padding: 5px;
+	border: 3px solid #4169e1;
+	border-radius:30px;
+}
+
+/* ※中のテーブル枠線を表示しない */
+.p-table-tr{
+	border-style:none;
+}

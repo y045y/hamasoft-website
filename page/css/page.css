@@ -1,0 +1,439 @@
+﻿@charset "utf-8";
+
+/*-------------------------------------*/
+/* キャプション（ヘッダー部）          */
+/*-------------------------------------*/
+
+div#CaptionbgColor{
+	background: #0cd0c2;
+	border-top: 1px solid #dedede;
+	margin-bottom:0px;
+}
+
+div#CaptionImgBox{
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+	min-height:80px;
+	height: auto !important;
+	height: 80px;
+	position: relative;
+	color : #fff;
+}
+div#CaptionTextBox{
+	margin: 0 auto;
+	text-align: right;
+	width: 960px;
+	height: 20px;
+	color : #fdc282;
+	font-size:17px;
+	margin-bottom:10px;
+}
+
+
+/*-------------------------------------*/
+/* 小見出し                            */
+/*-------------------------------------*/
+div#SubHead{
+	background: url(../../share/img/cercle.png) no-repeat left top;
+	padding-top: 5px;
+	padding-left: 30px;
+	color:#000099;
+	font-size: 25px;
+	height:60px;
+}
+
+/*-------------------------------------*/
+/* 地図                            */
+/*-------------------------------------*/
+div#map{
+	width:600px
+	height:500px;
+}
+
+/*-------------------------------------*/
+
+div.wrapBox{
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0 ;
+}
+
+div#mainContents{
+	width: 700px;
+	float: right;
+}
+
+div#leftContents{
+	width: 200px;
+	float: left;
+	background-color: #0cd0c2;
+	border-bottom: 10px solid #1f69a2;
+}
+
+ul#subNavigation{}
+
+ul#subNavigation li{
+	color: #ffffff;
+	padding-left: 5px;
+	display: block;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	font-size:14px;
+}
+ul#subNavigation li a{
+	color: #ffffff;
+	text-decoration:none;
+}
+
+ul#subNavigation li a:hover {
+    color:#ff8040;
+    text-decoration:underline;
+}
+
+
+.sTitle{
+	margin: 60px 0 20px;
+}
+
+.sTitleFirst{
+	margin: 0px 0 20px;
+}
+
+
+/*-------------------------------------*/
+
+h3{
+	text-align: center;
+	margin: 90px 0;
+	color: #900;
+	border: 3px solid #900;
+	padding: 10px 0;
+}
+
+p{
+	margin-bottom: 15px;
+}
+
+
+/*-------------------------------------*/
+/* 見出し装飾 */
+/*-------------------------------------*/
+
+
+.chapter0{
+	padding-bottom: 4px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	font-size:20px;
+	color:#ff8040;
+	font-weight: bold;
+}
+.chapter1{
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+
+.chapter2{
+	padding-bottom: 4px;
+	border-bottom: 3px solid #ccc;
+	font-weight: bold;
+}
+
+.chapter3{
+	padding-bottom: 4px;
+	border-bottom: 3px solid #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+.chapter4{
+	padding-bottom: 4px;
+	border-bottom: 3px solid #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+.chapter5{
+	padding: 6px 8px;
+	background: #efefef;
+	color: #111;
+	font-size: 14px;
+	font-weight: bold;
+}
+.chapter6{
+	padding: 6px 8px;
+	background: #ccc;
+	color: #111;
+	font-size: 14px;
+	font-weight: bold;
+}
+.chapter7{
+	padding: 6px 8px;
+	background: #666;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.chapter8{
+	padding: 6px 8px;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.chapter9{
+	padding: 6px 8px;
+	background: #c00;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.chapter10{
+	padding: 6px 8px;
+	background: #900;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.chapter11{
+	padding: 6px 8px;
+	background: #63C068;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.chapter12{
+	padding: 6px 8px;
+	background: #F5F6E4;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+.chapter13{
+	padding: 6px 8px;
+	background: #F9EBF8;
+	color: #900;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.chapter14{
+	padding: 6px 8px;
+	background: #BEA581;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.chapter15{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.chapter16{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.chapter17{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* 一部ブラウザ対象外 */
+.chapter18{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 1px solid #ccc;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* 一部ブラウザ対象外 */
+.chapter19{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: #efefef;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* 一部ブラウザ対象外 */
+.chapter20{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: #333;
+	color: #fff;
+	border: 1px solid #dedede;
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*-------------------------------------*/
+/* テーブルフォーマット */
+/*-------------------------------------*/
+
+table{
+	border-top: 1px solid #ccc;
+	width: 100%;
+	margin-bottom: 30px;
+}
+table th,
+table td{
+	padding-left: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ccc;
+}
+table th{
+	text-align:left;
+}
+table td{
+	border-left: 1px solid #ccc;
+	padding-left: 14px;
+}
+
+table caption{caption-side: bottom; text-align: left;}
+
+table.tableDec1 th{ background: #efefef; padding-left: 10px;}
+table.tableDec2 th{ background: #333; color: #fff; padding-left: 10px;}
+table.tableDec3 th{ background: #f6f6f6; color: #fff; padding-left: 25px; padding-right: 20px; border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; color: #333;}
+
+/*-------------------------------------*/
+/* リストフォーマット */
+/*-------------------------------------*/
+
+ul{
+	display: block;
+	margin-bottom: 30px;
+}
+
+ul.Number{ list-style: decimal inside;}
+
+ul.imgList1{ list-style: circle inside;}
+ul.imgList2{ list-style: disc inside;}
+
+ul.bgList1 li{ background: url(http://www.hamasoft.co.jp/page/img/bg_list1.gif) no-repeat left center; padding-left: 1.5em;}
+ul.bgList2 li{ background: url(http://www.hamasoft.co.jp/page/img/bg_list2.gif) no-repeat left center; padding-left: 1.5em;}
+ul.bgList3 li{ background: url(http://www.hamasoft.co.jp/page/img/bg_list3.gif) no-repeat left center; padding-left: 1.5em;}
+ul.bgList4 li{ background: url(http://www.hamasoft.co.jp/page/img/bg_list4.gif) no-repeat left center; padding-left: 1.5em;}
+ul.bgList5 li{ background: url(http://www.hamasoft.co.jp/page/img/bg_list5.gif) no-repeat left center; padding-left: 1.5em;}
+
+ul.borderList1 li{ border-bottom: 1px solid #ccc; padding-bottom:0.3em; margin-bottom: 0.9em; display: block; }
+ul.borderList2 li{ border-bottom: 1px dotted #ccc; padding-bottom:0.3em; margin-bottom: 0.9em; display: block; }
+
+
+/*-------------------------------------*/
+/* テキストテンプレート */
+/*-------------------------------------*/
+
+
+/* 基本フォーマット */
+div.txtTempSet{
+	margin-bottom: 30px;
+}
+
+div.txtTempSet strong{
+	display: block;
+	font-weight: bold;
+}
+
+div#mainContents div.clearfix{
+	width: 100%;
+}
+/* txtTemp0 */
+div.txtTemp0{}
+div.txtTemp0 div.fL{ width: 360px;}
+div.txtTemp0 strong{color:#000000; margin-bottom: 6px;}
+div.txtTemp0 span{ color: #666;}
+div.txtTemp0 p{ float: right; width: 270px;}
+
+
+/* txtTemp1 */
+div.txtTemp1{}
+div.txtTemp1 strong{ margin-bottom: 6px;}
+div.txtTemp1 span{ color: #666;}
+
+/* txtTemp2 */
+div.txtTemp2{}
+div.txtTemp2 strong{ margin-bottom: 6px; font-size: 14px;}
+div.txtTemp2 span{ color: #666;}
+
+/* txtTemp3 */
+div.txtTemp3{}
+div.txtTemp3 strong{ margin-bottom: 6px; color: #900}
+div.txtTemp3 span{ color: #333;}
+
+/* txtTemp4 */
+div.txtTemp4{}
+div.txtTemp4 strong{ margin-bottom: 6px;}
+div.txtTemp4 span{ color: #666;}
+div.txtTemp4 p{ float: right; width: 194px;}
+
+/* txtTemp5 */
+div.txtTemp5{}
+div.txtTemp5 strong{ margin-bottom: 6px;}
+div.txtTemp5 span{ color: #666;}
+div.txtTemp5 p{ float: left; width: 194px;}
+
+/* txtTemp6 */
+div.txtTemp6{}
+div.txtTemp6 div.fL{ width: 350px;}
+div.txtTemp6 strong{ margin-bottom: 6px;}
+div.txtTemp6 span{ color: #666;}
+div.txtTemp6 p{ float: right; width: 320px;}
+
+/* txtTemp7 */
+div.txtTemp7{}
+div.txtTemp7 div.fR{ width: 350px;}
+div.txtTemp7 strong{ margin-bottom: 6px;}
+div.txtTemp7 span{ color: #666;}
+div.txtTemp7 p{ float: left; width: 320px;}
+
+
+/*　テキスト調整　*/
+.text_indent {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.text_right {
+  text-align:right;
+}
+
+.del_waku{
+  border:none;
+  outline:none;
+}
+
+p.indent-11 {
+padding-left:1em;
+text-indent:-1em;
+}
+p.indent-20 {
+padding-left:2em;
+}
+p.indent-10 {
+padding-left:1em;
+}
+p.indent-21 {
+padding-left:2em;
+text-indent:-1em;
+}
+p.indent-31 {
+padding-left:3em;
+text-indent:-1em;
+}
+p.indent-41 {
+padding-left:4em;
+text-indent:-1em;
+}

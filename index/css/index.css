@@ -1,0 +1,287 @@
+﻿@charset "utf-8";
+
+/*-------------------------------------*/
+/* メインイメージ */
+/*-------------------------------------*/
+
+div#bgColor{
+	background: #0cd0c2;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+
+div#mainImgBox{
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+	min-height:381px;
+	height: auto !important;
+	height: 381px;
+	position: relative;
+	color : #fff;
+}
+
+div#mainImgBox div#mainMessageBox{
+	width: 277px;
+	min-height:381px;
+	height: auto !important;
+	height: 381px;
+	background-color:#0cd0c2; /*スライダーの左テキスト網掛け部分*/
+	/*border-left: 1px solid #dedede;
+	border-right: 1px solid #efefef;*/
+	z-index: 2;
+	position: absolute;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+	div#mainImgBox div#mainMessageBox strong{
+		/*font-weight: bold;*/
+		font-size: 28px;
+		display: block;
+		padding: 80px 10px 10px;
+	}
+	div#mainImgBox div#mainMessageBox span{
+		padding: 0 20px;
+		display: block;
+		line-height: 1.8;
+		font-size: 13px;
+	}
+
+
+/* スライドショー */
+
+#slides {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+
+.slides_container {
+	width: 960px;
+	height: 381px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.slides_container a {
+	width:960px;
+	height:381px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+.pagination {
+	position:absolute;
+	top: 390px;
+	right: 5px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*-------------------------------------*/
+
+
+div#mainContents_box{
+	text-align: center;
+	/*background: url(../img/main_bk.jpg) no-repeat left top ;*/
+}
+
+div#mainContents{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 50px;
+}
+
+	/* ３つのトピックス */
+	div#mainContents div.topicsBox{
+		width: 270px;
+		float: left;
+		margin-left: 33px;
+		margin-bottom: 75px;
+	}
+
+	div#mainContents div.firstItem{
+		margin-left: 0px;
+		border-bottom: 1px #dedede solid;
+		padding:10px;
+		height:300px;
+	}
+	div#mainContents div.secondItem{
+		margin-left: 35px;
+		border: 1px #dedede solid;
+		padding:10px;
+		height:300px;
+	}
+	div#mainContents div.thirdItem{
+		margin-left: 35px;
+		border: 1px #dedede solid;
+		padding:10px;
+		height:300px;
+	}
+
+	div#mainContents div.topicsBox strong1{
+		margin-bottom: 15px;
+		font-weight: bold;
+		display: block;
+		font-size: 16px;
+		border-bottom: 1px #dedede solid;
+		color: #ffffff;
+		background-color: #0cd0c2;
+	}
+	div#mainContents div.topicsBox strong2{
+		margin-bottom: 15px;
+		font-weight: bold;
+		display: block;
+		font-size: 16px;
+		border-bottom: 1px #dedede solid;
+		color: #ffffff;
+		background-color: #009a44;
+	}
+	div#mainContents div.topicsBox strong3{
+		margin-bottom: 15px;
+		font-weight: bold;
+		display: block;
+		font-size: 16px;
+		border-bottom: 1px #dedede solid;
+		color: #ffffff;
+		background-color: #4c4298;
+	}
+
+	div#mainContents div.topicsBox span{
+		line-height: 1.8;
+		display: block;
+		text-align: justify;
+		margin-bottom: 8px;
+	}
+
+
+/* 新着情報 */
+div#newTopics{
+	float: left;
+	background: url(../../share/img/cercle.png) no-repeat left top;
+}
+
+	div#newTopics strong{
+		font-weight: bold;
+		margin-bottom: 8px;
+		display: block;
+		font-size: 18px;
+		color:#0080ff;
+}
+
+	div#newTopics dl{
+		width: 595px;
+	}
+
+	div#newTopics dl dt,
+	div#newTopics dl dd{
+		padding: 10px 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	div#newTopics dl dt{
+		float:left;
+		width:75px;
+		clear:both;
+		background: url(http://www.hamasoft.co.jp/index/img/bg_boder.gif) repeat 0 0 ;
+		color:#ff8000;
+		font-weight: bold;
+	}
+
+	div#newTopics dl dd{
+		width:495px;
+		margin-left:75px;
+		padding-left: 20px;
+	}
+
+
+/* QRコード */
+div#QRcodeBox{
+	margin-left: 33px;
+	float: right;
+	border: 1px solid #dedede;
+}
+
+	div#QRcodeBox p{
+		width: 300px;
+		height:100px;
+		padding: 15px;
+		font-size: 12px;
+		color:#666666;
+	}
+
+
+/* バナーエリア */
+div#bannerBox{
+	float: right;
+	width: 250px;
+}
+
+	div#bannerBox ul{}
+	div#bannerBox ul li{
+		margin-bottom: 15px;
+	}
+
+
+/* 2016/11/28 追加 */
+/* ---プライバシーマーク位置 --- */
+
+div#Pmark{
+	margin-left: 33px;
+	margin-top: 10px;
+	float: right;
+	border: 0px solid #dedede;
+}
+div#Pmark p{
+		width: 320px;
+		/*height:100px;*/
+		/*padding: 15px;*/
+		text-align:left;
+		padding: 0;
+		font-size: 12px;
+		color:#666666;
+	}
+
+
+/* 2021.6.3 追加 */
+/* ---IT補助 --- */
+
+div#IThojyo{
+	margin-left:33px;
+	margin-top: 10px;
+	float: right;
+	border: none;
+}
+div#IThojyo p{
+	width: 320px;
+	text-align:left;
+	padding: 0px;
+	}	
+	
